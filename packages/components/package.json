@@ -1,0 +1,9 @@
+{
+  "name": "@ninetails-cuddly-robot/components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@builder.io/mitosis": "^0.0.82",
+    "@builder.io/mitosis-cli": "^0.0.40"
+  }
+}
