@@ -1,0 +1,1 @@
+<b>Svelte Component</b>
