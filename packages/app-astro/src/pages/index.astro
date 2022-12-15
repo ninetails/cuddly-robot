@@ -1,8 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
-// import Card from '../components/Card.astro';
-import ReactCompopnent from '../components/ReactCompopnent';
-import SvelteComponent from '../components/SvelteComponent.svelte';
+import Layout from '../layouts/Layout.astro'
+// import Card from '../components/Card.astro'
+import ReactCompopnent from '../components/ReactCompopnent'
+import SvelteComponent from '../components/SvelteComponent.svelte'
+import MyComponentReact from '@ninetails-cuddly-robot/components/output/react/src/MyComponent'
+import MyComponentSvelte from '@ninetails-cuddly-robot/components/output/svelte/src/MyComponent.svelte'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -10,6 +12,8 @@ import SvelteComponent from '../components/SvelteComponent.svelte';
     <h1>Welcome to <span class="text-gradient">Astro</span></h1>
     <ReactCompopnent />
     <SvelteComponent />
+    <MyComponentReact message="Hello from Mitosis React Component" />
+    <MyComponentSvelte message="Hello from Mitosis Svelte Component" />
   </main>
 </Layout>
 
